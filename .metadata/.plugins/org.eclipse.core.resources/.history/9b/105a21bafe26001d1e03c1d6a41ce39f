@@ -1,0 +1,18 @@
+program Lazar 
+
+bool istina[];
+int nekiNiz[];
+
+{
+
+	void main() int prom1;{
+		istina = new bool[4];
+		istina[0] = true;
+		istina[1] = false;
+		istina[2] = false;
+		istina[3] = true;
+		prom1 = ^^istina;
+		return;
+	}
+
+}

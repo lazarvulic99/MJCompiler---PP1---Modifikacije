@@ -1,0 +1,471 @@
+INFO  19:29:08,569 - Compiling source file: C:\Users\Lenovo\Desktop\PP Vezbanje\workspace\MJCompiler\test\program.mj
+INFO  19:29:08,591 - #2 program
+INFO  19:29:08,591 - #39 Lazar
+INFO  19:29:08,591 - #39 bool
+INFO  19:29:08,592 - #39 istina
+INFO  19:29:08,592 - #7 [
+INFO  19:29:08,592 - #8 ]
+INFO  19:29:08,592 - #11 ;
+INFO  19:29:08,593 - #39 int
+INFO  19:29:08,594 - #39 nekiNiz
+INFO  19:29:08,594 - #7 [
+INFO  19:29:08,594 - #8 ]
+INFO  19:29:08,594 - #11 ;
+INFO  19:29:08,594 - #3 {
+INFO  19:29:08,594 - #17 void
+INFO  19:29:08,594 - #39 main
+INFO  19:29:08,594 - #5 (
+INFO  19:29:08,594 - #6 )
+INFO  19:29:08,595 - #39 int
+INFO  19:29:08,595 - #39 prom1
+INFO  19:29:08,595 - #11 ;
+INFO  19:29:08,595 - #3 {
+INFO  19:29:08,607 - #39 istina
+INFO  19:29:08,607 - #13 =
+INFO  19:29:08,607 - #21 new
+INFO  19:29:08,608 - #39 bool
+INFO  19:29:08,608 - #7 [
+INFO  19:29:08,608 - #40 4
+INFO  19:29:08,608 - #8 ]
+INFO  19:29:08,610 - #11 ;
+INFO  19:29:08,611 - #39 istina
+INFO  19:29:08,611 - #7 [
+INFO  19:29:08,611 - #40 0
+INFO  19:29:08,611 - #8 ]
+INFO  19:29:08,611 - #13 =
+INFO  19:29:08,611 - #41 1
+INFO  19:29:08,611 - #11 ;
+INFO  19:29:08,612 - #39 istina
+INFO  19:29:08,612 - #7 [
+INFO  19:29:08,612 - #40 1
+INFO  19:29:08,612 - #8 ]
+INFO  19:29:08,612 - #13 =
+INFO  19:29:08,612 - #41 0
+INFO  19:29:08,612 - #11 ;
+INFO  19:29:08,612 - #39 istina
+INFO  19:29:08,612 - #7 [
+INFO  19:29:08,612 - #40 2
+INFO  19:29:08,612 - #8 ]
+INFO  19:29:08,612 - #13 =
+INFO  19:29:08,612 - #41 0
+INFO  19:29:08,612 - #11 ;
+INFO  19:29:08,612 - #39 istina
+INFO  19:29:08,612 - #7 [
+INFO  19:29:08,612 - #40 3
+INFO  19:29:08,612 - #8 ]
+INFO  19:29:08,612 - #13 =
+INFO  19:29:08,612 - #41 1
+INFO  19:29:08,612 - #11 ;
+INFO  19:29:08,613 - #39 prom1
+INFO  19:29:08,613 - #13 =
+INFO  19:29:08,613 - #38 ^^
+INFO  19:29:08,613 - #39 istina
+INFO  19:29:08,613 - #11 ;
+INFO  19:29:08,613 - #18 return
+INFO  19:29:08,613 - #11 ;
+INFO  19:29:08,613 - #4 }
+INFO  19:29:08,613 - #4 }
+INFO  19:29:08,615 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_variable(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      VariableDeclList(
+        Type(
+         bool
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             istina
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [ProgDeclList_variable]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+          VariableDecl(
+           nekiNiz
+            VariableOpcioneZagrade_uglasteZagrade(
+            ) [VariableOpcioneZagrade_uglasteZagrade]
+          ) [VariableDecl]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             prom1
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_notEmpty(
+        StatementVector_notEmpty(
+          StatementVector_notEmpty(
+            StatementVector_notEmpty(
+              StatementVector_notEmpty(
+                StatementVector_notEmpty(
+                  StatementVector_empty(
+                  ) [StatementVector_empty]
+                  Statement_singleNoLabel(
+                    SingleStatement_designatorStatement(
+                      DesignatorStatement_dodela(
+                        Designator_onlyIdent(
+                         istina
+                        ) [Designator_onlyIdent]
+                        AssignOperator(
+                        ) [AssignOperator]
+                        Expr(
+                          Expr_januar(
+                            Expr_SingleTerm(
+                              Term(
+                                Term_SingleFactor(
+                                  Factor(
+                                    FactorMoguciMinus_nijeMinus(
+                                    ) [FactorMoguciMinus_nijeMinus]
+                                    FactorZamena_new(
+                                      ArrayDecl(
+                                        Type(
+                                         bool
+                                        ) [Type]
+                                        Expr(
+                                          Expr_januar(
+                                            Expr_SingleTerm(
+                                              Term(
+                                                Term_SingleFactor(
+                                                  Factor(
+                                                    FactorMoguciMinus_nijeMinus(
+                                                    ) [FactorMoguciMinus_nijeMinus]
+                                                    FactorZamena_const(
+                                                      FactorConst_broj(
+                                                       4
+                                                      ) [FactorConst_broj]
+                                                    ) [FactorZamena_const]
+                                                  ) [Factor]
+                                                  MoguciFaktorijel_nijeFaktorijel(
+                                                  ) [MoguciFaktorijel_nijeFaktorijel]
+                                                ) [Term_SingleFactor]
+                                              ) [Term]
+                                            ) [Expr_SingleTerm]
+                                          ) [Expr_januar]
+                                        ) [Expr]
+                                      ) [ArrayDecl]
+                                    ) [FactorZamena_new]
+                                  ) [Factor]
+                                  MoguciFaktorijel_nijeFaktorijel(
+                                  ) [MoguciFaktorijel_nijeFaktorijel]
+                                ) [Term_SingleFactor]
+                              ) [Term]
+                            ) [Expr_SingleTerm]
+                          ) [Expr_januar]
+                        ) [Expr]
+                      ) [DesignatorStatement_dodela]
+                    ) [SingleStatement_designatorStatement]
+                  ) [Statement_singleNoLabel]
+                ) [StatementVector_notEmpty]
+                Statement_singleNoLabel(
+                  SingleStatement_designatorStatement(
+                    DesignatorStatement_dodela(
+                      Designator_element(
+                        VariableNameZaNiz(
+                         istina
+                        ) [VariableNameZaNiz]
+                        Expr(
+                          Expr_januar(
+                            Expr_SingleTerm(
+                              Term(
+                                Term_SingleFactor(
+                                  Factor(
+                                    FactorMoguciMinus_nijeMinus(
+                                    ) [FactorMoguciMinus_nijeMinus]
+                                    FactorZamena_const(
+                                      FactorConst_broj(
+                                       0
+                                      ) [FactorConst_broj]
+                                    ) [FactorZamena_const]
+                                  ) [Factor]
+                                  MoguciFaktorijel_nijeFaktorijel(
+                                  ) [MoguciFaktorijel_nijeFaktorijel]
+                                ) [Term_SingleFactor]
+                              ) [Term]
+                            ) [Expr_SingleTerm]
+                          ) [Expr_januar]
+                        ) [Expr]
+                      ) [Designator_element]
+                      AssignOperator(
+                      ) [AssignOperator]
+                      Expr(
+                        Expr_januar(
+                          Expr_SingleTerm(
+                            Term(
+                              Term_SingleFactor(
+                                Factor(
+                                  FactorMoguciMinus_nijeMinus(
+                                  ) [FactorMoguciMinus_nijeMinus]
+                                  FactorZamena_const(
+                                    FactorConst_boolean(
+                                     1
+                                    ) [FactorConst_boolean]
+                                  ) [FactorZamena_const]
+                                ) [Factor]
+                                MoguciFaktorijel_nijeFaktorijel(
+                                ) [MoguciFaktorijel_nijeFaktorijel]
+                              ) [Term_SingleFactor]
+                            ) [Term]
+                          ) [Expr_SingleTerm]
+                        ) [Expr_januar]
+                      ) [Expr]
+                    ) [DesignatorStatement_dodela]
+                  ) [SingleStatement_designatorStatement]
+                ) [Statement_singleNoLabel]
+              ) [StatementVector_notEmpty]
+              Statement_singleNoLabel(
+                SingleStatement_designatorStatement(
+                  DesignatorStatement_dodela(
+                    Designator_element(
+                      VariableNameZaNiz(
+                       istina
+                      ) [VariableNameZaNiz]
+                      Expr(
+                        Expr_januar(
+                          Expr_SingleTerm(
+                            Term(
+                              Term_SingleFactor(
+                                Factor(
+                                  FactorMoguciMinus_nijeMinus(
+                                  ) [FactorMoguciMinus_nijeMinus]
+                                  FactorZamena_const(
+                                    FactorConst_broj(
+                                     1
+                                    ) [FactorConst_broj]
+                                  ) [FactorZamena_const]
+                                ) [Factor]
+                                MoguciFaktorijel_nijeFaktorijel(
+                                ) [MoguciFaktorijel_nijeFaktorijel]
+                              ) [Term_SingleFactor]
+                            ) [Term]
+                          ) [Expr_SingleTerm]
+                        ) [Expr_januar]
+                      ) [Expr]
+                    ) [Designator_element]
+                    AssignOperator(
+                    ) [AssignOperator]
+                    Expr(
+                      Expr_januar(
+                        Expr_SingleTerm(
+                          Term(
+                            Term_SingleFactor(
+                              Factor(
+                                FactorMoguciMinus_nijeMinus(
+                                ) [FactorMoguciMinus_nijeMinus]
+                                FactorZamena_const(
+                                  FactorConst_boolean(
+                                   0
+                                  ) [FactorConst_boolean]
+                                ) [FactorZamena_const]
+                              ) [Factor]
+                              MoguciFaktorijel_nijeFaktorijel(
+                              ) [MoguciFaktorijel_nijeFaktorijel]
+                            ) [Term_SingleFactor]
+                          ) [Term]
+                        ) [Expr_SingleTerm]
+                      ) [Expr_januar]
+                    ) [Expr]
+                  ) [DesignatorStatement_dodela]
+                ) [SingleStatement_designatorStatement]
+              ) [Statement_singleNoLabel]
+            ) [StatementVector_notEmpty]
+            Statement_singleNoLabel(
+              SingleStatement_designatorStatement(
+                DesignatorStatement_dodela(
+                  Designator_element(
+                    VariableNameZaNiz(
+                     istina
+                    ) [VariableNameZaNiz]
+                    Expr(
+                      Expr_januar(
+                        Expr_SingleTerm(
+                          Term(
+                            Term_SingleFactor(
+                              Factor(
+                                FactorMoguciMinus_nijeMinus(
+                                ) [FactorMoguciMinus_nijeMinus]
+                                FactorZamena_const(
+                                  FactorConst_broj(
+                                   2
+                                  ) [FactorConst_broj]
+                                ) [FactorZamena_const]
+                              ) [Factor]
+                              MoguciFaktorijel_nijeFaktorijel(
+                              ) [MoguciFaktorijel_nijeFaktorijel]
+                            ) [Term_SingleFactor]
+                          ) [Term]
+                        ) [Expr_SingleTerm]
+                      ) [Expr_januar]
+                    ) [Expr]
+                  ) [Designator_element]
+                  AssignOperator(
+                  ) [AssignOperator]
+                  Expr(
+                    Expr_januar(
+                      Expr_SingleTerm(
+                        Term(
+                          Term_SingleFactor(
+                            Factor(
+                              FactorMoguciMinus_nijeMinus(
+                              ) [FactorMoguciMinus_nijeMinus]
+                              FactorZamena_const(
+                                FactorConst_boolean(
+                                 0
+                                ) [FactorConst_boolean]
+                              ) [FactorZamena_const]
+                            ) [Factor]
+                            MoguciFaktorijel_nijeFaktorijel(
+                            ) [MoguciFaktorijel_nijeFaktorijel]
+                          ) [Term_SingleFactor]
+                        ) [Term]
+                      ) [Expr_SingleTerm]
+                    ) [Expr_januar]
+                  ) [Expr]
+                ) [DesignatorStatement_dodela]
+              ) [SingleStatement_designatorStatement]
+            ) [Statement_singleNoLabel]
+          ) [StatementVector_notEmpty]
+          Statement_singleNoLabel(
+            SingleStatement_designatorStatement(
+              DesignatorStatement_dodela(
+                Designator_element(
+                  VariableNameZaNiz(
+                   istina
+                  ) [VariableNameZaNiz]
+                  Expr(
+                    Expr_januar(
+                      Expr_SingleTerm(
+                        Term(
+                          Term_SingleFactor(
+                            Factor(
+                              FactorMoguciMinus_nijeMinus(
+                              ) [FactorMoguciMinus_nijeMinus]
+                              FactorZamena_const(
+                                FactorConst_broj(
+                                 3
+                                ) [FactorConst_broj]
+                              ) [FactorZamena_const]
+                            ) [Factor]
+                            MoguciFaktorijel_nijeFaktorijel(
+                            ) [MoguciFaktorijel_nijeFaktorijel]
+                          ) [Term_SingleFactor]
+                        ) [Term]
+                      ) [Expr_SingleTerm]
+                    ) [Expr_januar]
+                  ) [Expr]
+                ) [Designator_element]
+                AssignOperator(
+                ) [AssignOperator]
+                Expr(
+                  Expr_januar(
+                    Expr_SingleTerm(
+                      Term(
+                        Term_SingleFactor(
+                          Factor(
+                            FactorMoguciMinus_nijeMinus(
+                            ) [FactorMoguciMinus_nijeMinus]
+                            FactorZamena_const(
+                              FactorConst_boolean(
+                               1
+                              ) [FactorConst_boolean]
+                            ) [FactorZamena_const]
+                          ) [Factor]
+                          MoguciFaktorijel_nijeFaktorijel(
+                          ) [MoguciFaktorijel_nijeFaktorijel]
+                        ) [Term_SingleFactor]
+                      ) [Term]
+                    ) [Expr_SingleTerm]
+                  ) [Expr_januar]
+                ) [Expr]
+              ) [DesignatorStatement_dodela]
+            ) [SingleStatement_designatorStatement]
+          ) [Statement_singleNoLabel]
+        ) [StatementVector_notEmpty]
+        Statement_singleNoLabel(
+          SingleStatement_designatorStatement(
+            DesignatorStatement_dodela(
+              Designator_onlyIdent(
+               prom1
+              ) [Designator_onlyIdent]
+              AssignOperator(
+              ) [AssignOperator]
+              Expr(
+                Expr_januar(
+                  Expr_SingleTerm(
+                    Term(
+                      Term_SingleFactor(
+                        Factor(
+                          FactorMoguciMinus_nijeMinus(
+                          ) [FactorMoguciMinus_nijeMinus]
+                          FactorZamena_binarniNiz(
+                            Designator_onlyIdent(
+                             istina
+                            ) [Designator_onlyIdent]
+                          ) [FactorZamena_binarniNiz]
+                        ) [Factor]
+                        MoguciFaktorijel_nijeFaktorijel(
+                        ) [MoguciFaktorijel_nijeFaktorijel]
+                      ) [Term_SingleFactor]
+                    ) [Term]
+                  ) [Expr_SingleTerm]
+                ) [Expr_januar]
+              ) [Expr]
+            ) [DesignatorStatement_dodela]
+          ) [SingleStatement_designatorStatement]
+        ) [Statement_singleNoLabel]
+      ) [StatementVector_notEmpty]
+      Statement_singleNoLabel(
+        SingleStatement_returnStatement(
+        ) [SingleStatement_returnStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  19:29:08,618 - =====================================================================
+INFO  19:29:08,622 - Pristupa se globalnoj promenljivi: istina [Kind: 1, adr: 0, level: 0, fpos: 0]  na liniji 9
+INFO  19:29:08,622 - Pristupilo se elementu niza: istina [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 10
+INFO  19:29:08,622 - Pristupilo se elementu niza: istina [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 11
+INFO  19:29:08,622 - Pristupilo se elementu niza: istina [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 12
+INFO  19:29:08,622 - Pristupilo se elementu niza: istina [Kind: 5, adr: -1, level: -1, fpos: 0]  na liniji 13
+INFO  19:29:08,622 - Pristupa se lokalnoj promenljivi: prom1 [Kind: 1, adr: 0, level: 1, fpos: 0]  na liniji 14
+INFO  19:29:08,622 - Pristupa se globalnoj promenljivi: istina [Kind: 1, adr: 0, level: 0, fpos: 0]  na liniji 14
+INFO  19:29:08,622 - INFO(FactorZamena_binarniNiz)! Usao u SA metodu za binarni niz!
+INFO  19:29:08,622 - 5 na liniji 14
+INFO  19:29:08,623 - Lokalnih promenljivih: 1
+INFO  19:29:08,623 - ---------------------------------------------------------------------
+INFO  19:29:08,623 - =====================================================================
+INFO  19:29:08,629 - Racunam vrednost binarnog niza!
+INFO  19:29:08,630 - Parsiranje i generisanje uspesno zavrseno!

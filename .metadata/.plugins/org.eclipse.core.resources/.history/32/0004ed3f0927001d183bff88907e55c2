@@ -1,0 +1,13 @@
+program Lazar 
+
+bool istina[];
+int nekiNiz[];
+
+{
+
+	void main() int prom1;char prom3;{
+		prom3 = 'a';
+		prom1 = istina? -4+2 : 3*5;
+	}
+
+}

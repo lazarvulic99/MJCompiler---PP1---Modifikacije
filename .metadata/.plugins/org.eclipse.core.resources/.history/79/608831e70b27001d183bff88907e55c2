@@ -1,0 +1,18 @@
+program Lazar 
+
+bool istina[];
+int nekiNiz[];
+
+const int jedan = 1;
+const int nula = 0;
+
+{
+
+	void main() int prom1, prom2, prom3;{
+		prom3 = 3;
+		prom2 = 4*3 - 6;
+		prom1 = jedan? prom2 + 5 : 3*prom2 + 11;
+		print(prom1);
+	}
+
+}

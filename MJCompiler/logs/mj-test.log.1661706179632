@@ -1,0 +1,70 @@
+INFO  19:02:53,654 - Compiling source file: C:\Users\Lenovo\Desktop\PP Vezbanje\workspace\MJCompiler\test\program.mj
+INFO  19:02:53,678 - #2 program
+INFO  19:02:53,678 - #39 Lazar
+INFO  19:02:53,678 - #39 bool
+INFO  19:02:53,679 - #39 istina
+INFO  19:02:53,679 - #11 ;
+INFO  19:02:53,680 - #3 {
+INFO  19:02:53,681 - #17 void
+INFO  19:02:53,681 - #39 main
+INFO  19:02:53,681 - #5 (
+INFO  19:02:53,681 - #6 )
+INFO  19:02:53,681 - #39 int
+INFO  19:02:53,682 - #39 prom1
+INFO  19:02:53,682 - #11 ;
+INFO  19:02:53,682 - #3 {
+INFO  19:02:53,682 - #4 }
+INFO  19:02:53,682 - #4 }
+INFO  19:02:53,684 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_empty(
+    ) [ProgDeclList_empty]
+    VariableDeclList(
+      Type(
+       bool
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+          VariableDecl(
+           istina
+            VariableOpcioneZagrade_bezZagrada(
+            ) [VariableOpcioneZagrade_bezZagrada]
+          ) [VariableDecl]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             prom1
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_empty(
+    ) [StatementVector_empty]
+  ) [MethodDeclList]
+) [Program]
+INFO  19:02:53,684 - =====================================================================
+INFO  19:02:53,689 - Lokalnih promenljivih: 1
+INFO  19:02:53,689 - ---------------------------------------------------------------------
+INFO  19:02:53,690 - =====================================================================
+INFO  19:02:53,700 - Parsiranje i generisanje uspesno zavrseno!

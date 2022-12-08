@@ -1,0 +1,159 @@
+INFO  21:28:51,426 - Compiling source file: C:\Users\Lenovo\Desktop\PP Vezbanje\workspace\MJCompiler\test\program.mj
+INFO  21:28:51,448 - #2 program
+INFO  21:28:51,448 - #40 Lazar
+INFO  21:28:51,448 - #40 bool
+INFO  21:28:51,449 - #40 istina
+INFO  21:28:51,449 - #7 [
+INFO  21:28:51,449 - #8 ]
+INFO  21:28:51,449 - #11 ;
+INFO  21:28:51,450 - #40 int
+INFO  21:28:51,451 - #40 nekiNiz
+INFO  21:28:51,451 - #7 [
+INFO  21:28:51,451 - #8 ]
+INFO  21:28:51,451 - #11 ;
+INFO  21:28:51,451 - #3 {
+INFO  21:28:51,451 - #17 void
+INFO  21:28:51,451 - #40 main
+INFO  21:28:51,451 - #5 (
+INFO  21:28:51,451 - #6 )
+INFO  21:28:51,451 - #40 int
+INFO  21:28:51,452 - #40 prom1
+INFO  21:28:51,452 - #10 ,
+INFO  21:28:51,452 - #40 prom3
+INFO  21:28:51,453 - #11 ;
+INFO  21:28:51,453 - #3 {
+INFO  21:28:51,453 - #40 prom3
+INFO  21:28:51,454 - #13 =
+INFO  21:28:51,454 - #41 4
+INFO  21:28:51,455 - #11 ;
+INFO  21:28:51,456 - #40 prom1
+INFO  21:28:51,457 - #13 =
+INFO  21:28:51,457 - #40 prom3
+INFO  21:28:51,457 - #24 ++
+ERROR 21:28:51,457 - 
+Sintaksna greska na liniji 10
+INFO  21:28:51,457 - #11 ;
+INFO  21:28:51,457 - #4 }
+INFO  21:28:51,457 - #4 }
+ERROR 21:28:51,457 - Oporavak izvrsen do ; u liniji 10
+INFO  21:28:51,459 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_variable(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      VariableDeclList(
+        Type(
+         bool
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             istina
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [ProgDeclList_variable]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+          VariableDecl(
+           nekiNiz
+            VariableOpcioneZagrade_uglasteZagrade(
+            ) [VariableOpcioneZagrade_uglasteZagrade]
+          ) [VariableDecl]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_multiple(
+          VariableComma_ok(
+            VariableDecl(
+             prom1
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableComma_ok]
+          VariableDeclOptions_single(
+            VariableSingle_ok(
+              VariableDecl(
+               prom3
+                VariableOpcioneZagrade_bezZagrada(
+                ) [VariableOpcioneZagrade_bezZagrada]
+              ) [VariableDecl]
+            ) [VariableSingle_ok]
+          ) [VariableDeclOptions_single]
+        ) [VariableDeclOptions_multiple]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_notEmpty(
+        StatementVector_empty(
+        ) [StatementVector_empty]
+        Statement_singleNoLabel(
+          SingleStatement_designatorStatement(
+            DesignatorStatement_dodela(
+              Designator_onlyIdent(
+               prom3
+              ) [Designator_onlyIdent]
+              AssignOperator(
+              ) [AssignOperator]
+              Expr(
+                Expr_januar(
+                  Expr_SingleTerm(
+                    Term(
+                      Term_SingleFactor(
+                        Factor(
+                          FactorMoguciMinus_nijeMinus(
+                          ) [FactorMoguciMinus_nijeMinus]
+                          FactorZamena_const(
+                            FactorConst_broj(
+                             4
+                            ) [FactorConst_broj]
+                          ) [FactorZamena_const]
+                        ) [Factor]
+                        MoguciFaktorijel_nijeFaktorijel(
+                        ) [MoguciFaktorijel_nijeFaktorijel]
+                      ) [Term_SingleFactor]
+                    ) [Term]
+                  ) [Expr_SingleTerm]
+                ) [Expr_januar]
+              ) [Expr]
+            ) [DesignatorStatement_dodela]
+          ) [SingleStatement_designatorStatement]
+        ) [Statement_singleNoLabel]
+      ) [StatementVector_notEmpty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_greska(
+          ) [DesignatorStatement_greska]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  21:28:51,459 - =====================================================================
+INFO  21:28:51,465 - Pristupa se lokalnoj promenljivi: prom3 [Kind: 1, adr: 1, level: 1, fpos: 0]  na liniji 9
+INFO  21:28:51,466 - Lokalnih promenljivih: 2
+INFO  21:28:51,466 - ---------------------------------------------------------------------
+INFO  21:28:51,467 - =====================================================================
+ERROR 21:28:51,467 - Parsiranje NIJE uspesno zavrseno!

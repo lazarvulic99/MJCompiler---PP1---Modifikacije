@@ -1,0 +1,121 @@
+INFO  21:26:40,595 - Compiling source file: C:\Users\Lenovo\Desktop\PP Vezbanje\workspace\MJCompiler\test\program.mj
+INFO  21:26:40,621 - #2 program
+INFO  21:26:40,621 - #40 Lazar
+INFO  21:26:40,621 - #40 bool
+INFO  21:26:40,622 - #40 istina
+INFO  21:26:40,623 - #7 [
+INFO  21:26:40,623 - #8 ]
+INFO  21:26:40,623 - #11 ;
+INFO  21:26:40,624 - #40 int
+INFO  21:26:40,624 - #40 nekiNiz
+INFO  21:26:40,624 - #7 [
+INFO  21:26:40,624 - #8 ]
+INFO  21:26:40,625 - #11 ;
+INFO  21:26:40,625 - #3 {
+INFO  21:26:40,625 - #17 void
+INFO  21:26:40,625 - #40 main
+INFO  21:26:40,625 - #5 (
+INFO  21:26:40,625 - #6 )
+INFO  21:26:40,625 - #40 int
+INFO  21:26:40,626 - #40 prom1
+INFO  21:26:40,626 - #11 ;
+INFO  21:26:40,626 - #3 {
+INFO  21:26:40,626 - #40 prom1
+INFO  21:26:40,627 - #13 =
+INFO  21:26:40,627 - #5 (
+INFO  21:26:40,628 - #41 4
+INFO  21:26:40,628 - #27 +
+INFO  21:26:40,629 - #41 3
+INFO  21:26:40,630 - #6 )
+INFO  21:26:40,630 - #30 ?
+ERROR 21:26:40,630 - 
+Sintaksna greska na liniji 9
+INFO  21:26:40,631 - #26 -
+INFO  21:26:40,631 - #41 4
+INFO  21:26:40,631 - #27 +
+INFO  21:26:40,631 - #41 2
+INFO  21:26:40,631 - #12 :
+INFO  21:26:40,631 - #41 3
+INFO  21:26:40,631 - #27 +
+INFO  21:26:40,631 - #41 6
+INFO  21:26:40,631 - #11 ;
+INFO  21:26:40,631 - #4 }
+INFO  21:26:40,631 - #4 }
+ERROR 21:26:40,631 - Oporavak izvrsen do ; u liniji 9
+INFO  21:26:40,633 - Program(
+  ProgramIdent(
+   Lazar
+  ) [ProgramIdent]
+  ProgDeclList_variable(
+    ProgDeclList_variable(
+      ProgDeclList_empty(
+      ) [ProgDeclList_empty]
+      VariableDeclList(
+        Type(
+         bool
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             istina
+              VariableOpcioneZagrade_uglasteZagrade(
+              ) [VariableOpcioneZagrade_uglasteZagrade]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [ProgDeclList_variable]
+    VariableDeclList(
+      Type(
+       int
+      ) [Type]
+      VariableDeclOptions_single(
+        VariableSingle_ok(
+          VariableDecl(
+           nekiNiz
+            VariableOpcioneZagrade_uglasteZagrade(
+            ) [VariableOpcioneZagrade_uglasteZagrade]
+          ) [VariableDecl]
+        ) [VariableSingle_ok]
+      ) [VariableDeclOptions_single]
+    ) [VariableDeclList]
+  ) [ProgDeclList_variable]
+  MethodDeclList(
+    MethodName(
+     main
+    ) [MethodName]
+    VarDeclVectorForMethod_notEmpty(
+      VarDeclVectorForMethod_empty(
+      ) [VarDeclVectorForMethod_empty]
+      VariableDeclList(
+        Type(
+         int
+        ) [Type]
+        VariableDeclOptions_single(
+          VariableSingle_ok(
+            VariableDecl(
+             prom1
+              VariableOpcioneZagrade_bezZagrada(
+              ) [VariableOpcioneZagrade_bezZagrada]
+            ) [VariableDecl]
+          ) [VariableSingle_ok]
+        ) [VariableDeclOptions_single]
+      ) [VariableDeclList]
+    ) [VarDeclVectorForMethod_notEmpty]
+    StatementVector_notEmpty(
+      StatementVector_empty(
+      ) [StatementVector_empty]
+      Statement_singleNoLabel(
+        SingleStatement_designatorStatement(
+          DesignatorStatement_greska(
+          ) [DesignatorStatement_greska]
+        ) [SingleStatement_designatorStatement]
+      ) [Statement_singleNoLabel]
+    ) [StatementVector_notEmpty]
+  ) [MethodDeclList]
+) [Program]
+INFO  21:26:40,633 - =====================================================================
+INFO  21:26:40,637 - Lokalnih promenljivih: 1
+INFO  21:26:40,637 - ---------------------------------------------------------------------
+INFO  21:26:40,638 - =====================================================================
+ERROR 21:26:40,638 - Parsiranje NIJE uspesno zavrseno!
